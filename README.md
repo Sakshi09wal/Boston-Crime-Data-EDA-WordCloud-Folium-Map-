@@ -1,4 +1,4 @@
-# NLP
+# NLP(Natural Language Processing)
 
 1. Data Preprocessing: The dataset consists of articles regarding Crime in NYC that were acquired from the News Articles from lots of USA Online news article by continuous querying using a wrapper for the News API over a period of 2 months.
            The batch of articles are acquired in raw JSON format. Various properties of the articles such as the content, description, URLs, publishedAt, title, source and other information including the title, source are extracted. The Description can provide a good source for creating discriminating features and they were folded as terms into the bag of words model for each headline where they were present. The publishedAt can also later provide a method to achieve time over topic model.
